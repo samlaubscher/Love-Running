@@ -57,4 +57,22 @@ h2 {
 	height: 600px;
 	width: 100%;
 	background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+	animation-name: hero-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+#hero-outer {
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+}
+
+@keyframes hero-zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.1);
+	}
 }

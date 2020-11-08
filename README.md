@@ -11,4 +11,10 @@
 - Sign up page
 	This allows users to sign up and get contacted by the community directly.
 
+### Technologies Used
+- HTML
+- CSS3
+- Font Awesome
+- Google Fonts
+
 Click [here](https://love-running.tweakz.repl.co/index.html) to view the live site.

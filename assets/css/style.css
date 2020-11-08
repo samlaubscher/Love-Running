@@ -21,6 +21,7 @@ h2 {
 #logo {
 	float: left;
 	font-size: 280%;
+	margin-left: 30px;
 }
 
 #menu {
@@ -206,3 +207,15 @@ footer {
 	padding: 5%;
 	color: #777;
 }
+
+#photos {
+	clear: both;
+	line-height: 0;
+	column-count: 4;
+	column-gap: 0;
+}
+
+#photos img {
+	width: 100%;
+}
+

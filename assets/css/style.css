@@ -11,6 +11,8 @@ body {
 	color: #777;
 }
 
+/* logo and nav */
+
 h2 {
 	font-family: Oswald;
 	text-transform: uppercase;
@@ -53,6 +55,8 @@ h2 {
 	border-bottom: 1px solid #777;
 }
 
+/* hero */
+
 #hero-image {
 	height: 600px;
 	width: 100%;
@@ -77,6 +81,8 @@ h2 {
 		transform: scale(1.1);
 	}
 }
+
+/* club ethos */
 
 #cover-text, #cover-text h2 {
 	color: #fff;
@@ -166,6 +172,8 @@ hr {
 	border-radius: 50%;
 }
 
+/* times */
+
 #times {
 	background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png") no-repeat;
 	background-size: cover;
@@ -189,6 +197,8 @@ hr {
 	color: #fafafa
 }
 
+/* footer */
+
 footer {
 	height: 150px;
 }
@@ -207,6 +217,8 @@ footer {
 	padding: 5%;
 	color: #777;
 }
+
+/* gallery */
 
 #photos {
 	clear: both;
@@ -293,6 +305,8 @@ legend {
     font-size: 16px;
 
 }
+
+/* media queries */
 
 @media screen and (max-width: 1420px) {
 	#club-ethos {

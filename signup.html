@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Love Running</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		<header>
+			<a href="index.html">
+				<h2 id="logo">Love Running</h2>
+			</a>
+			<nav>
+				<ul id="menu">
+					<li>
+						<a class="active" href="signup.html">Sign Up</a>
+					</li>
+					<li>
+						<a href="gallery.html">Gallery</a>
+					</li>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="form-section">
+			<div id="form-container">
+				<div id="form-overview">
+					<h1 class="main-heading">Let's get you out there! <i class="fa fa-heartbeat"></i></h1>
+					<h3 class="sub-heading">Let us know where you want to run</h3>
+					<h4 class="sub-heading">We'll make sure you're in excellent company</h4>
+					<form class="signup-form" method="post" action="https://formdump.codeinstitute.net/">
+						<fieldset>
+							<legend>Personal Details</legend>
+							<label for="fname">First Name</label>
+							<input id="fname" class="text-input" type="text" name="fname" required   />
+							<label for="lname">Last Name</label>
+							<input id="lname" class="text-input" type="text" name="lname" required />
+							<label for="signup-email">Email Address</label>
+							<input id="signup-email" class="text-input" type="email" name="email" required />	
+						</fieldset>
+						<fieldset>
+							<legend>Running Preferences</legend>
+							<div class="running-preferences">
+								<label class="preference-label" for="road">Road</label>
+								<input type="radio" id="road" name="run-type" value="Road" required>
+								<label class="preference-label" for="trail">Trail</label>
+								<input type="radio" id="trail" name="run-type" value="Trail">
+								<label class="preference-label" for="both">Both</label>
+								<input type="radio" id="both" name="run-type" value="Both">
+							</div>
+						</fieldset>
+							<input class="join-button" type="submit" text="Join">
+					</form>
+				</div>
+			</div>
+													
+		</section>    
+    <footer>
+      <ul class="social-networks">
+				<li>
+					<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+				</li>
+				<li>
+					<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
+				</li>
+			</ul>
+    </footer>
+  </body>
+</html>

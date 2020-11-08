@@ -219,6 +219,80 @@ footer {
 	width: 100%;
 }
 
+/* form */
+
+#form-container {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 30%;
+    position: absolute;
+    left: 170px;
+    padding: 30px;
+}
+
+#form-section {
+    padding: 50px 0;
+    clear: both;
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.sub-heading {
+    margin-top: 35px;
+    line-height: 10%;
+}
+
+.signup-form {
+    margin-top: 35px;
+}
+
+label {
+    line-height: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.text-input {
+    background-color: transparent;
+    color: #fff;
+    width: 99%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(254, 254, 254, 0.3);
+    border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+    border-color: #fff;
+}
+
+legend {
+    margin-bottom: 15px;
+}
+
+.running-preferences {
+    width: 99%;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.preference-label {
+    margin: 10 5 30 5;
+}
+
+.join-button {
+    border-radius: 3px;
+    color: #999999;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+
+}
 
 @media screen and (max-width: 1420px) {
 	#club-ethos {
@@ -295,9 +369,23 @@ footer {
 	#photos {
 		column-count: 3;
 	}
+
+	#form-container {
+		width: 70%;
+		left: 30px;
+	}
 }
 
 @media screen and (max-width: 420px) {
+
+	#logo {
+		font-size: 250%;
+	}
+
+	#menu {
+		font-size: 80%;
+	}
+
 	#circle-container{
     width: 90%;
     height: 300px;
@@ -306,5 +394,14 @@ footer {
 
 	#photos {
 		column-count: 1;
+	}
+
+	#form-container {
+		width: 80%;
+		left: 0;
+	}
+
+	.sub-heading {
+		font-size: 12px;
 	}
 }
